@@ -7,8 +7,8 @@
 body{
     background-color: var(--black);
     animation: fadeIn 2s ease;
-
 }
+
 .wholeContainer{
     margin-top: 140px;
     color: var(--white);
@@ -58,7 +58,7 @@ input[type=text]:focus {
     height: 60vh;
     width: 55vw;
     background-color: black;
-    margin-left: 45rem;
+    margin-left: 50rem;
 }
 .doneBtn{
     width: 350px;
@@ -85,4 +85,3 @@ input[type=text]:focus {
         opacity: 1;
     }
 }
-

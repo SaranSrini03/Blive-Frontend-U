@@ -17,7 +17,6 @@ nav{
     width: 70rem;
     padding: 0px 20px;
     letter-spacing: -1px;
-    /* From https://css.glass */
     background: rgba(255, 255, 255, 0.795);
     border-radius: 50px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -70,8 +69,8 @@ nav{
 body{
     background-color: var(--black);
     animation: fadeIn 2s ease;
-
 }
+
 .wholeContainer{
     margin-top: 140px;
     color: var(--white);
@@ -121,7 +120,7 @@ input[type=text]:focus {
     height: 60vh;
     width: 55vw;
     background-color: black;
-    margin-left: 45rem;
+    margin-left: 50rem;
 }
 .doneBtn{
     width: 350px;
@@ -148,5 +147,4 @@ input[type=text]:focus {
         opacity: 1;
     }
 }
-
 

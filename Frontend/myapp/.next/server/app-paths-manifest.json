@@ -1,10 +1,6 @@
 {
-  "/startStream/page": "app/startStream/page.js",
+  "/stream/[id]/page": "app/stream/[id]/page.js",
   "/page": "app/page.js",
   "/watch/page": "app/watch/page.js",
-  "/metaMaskLogin/page": "app/metaMaskLogin/page.js",
-  "/api/stream-status/route": "app/api/stream-status/route.js",
-  "/api/update-stream-status/route": "app/api/update-stream-status/route.js",
-  "/stream/[id]/page": "app/stream/[id]/page.js",
-  "/api/streams/[id]/route": "app/api/streams/[id]/route.js"
+  "/startStream/page": "app/startStream/page.js"
 }

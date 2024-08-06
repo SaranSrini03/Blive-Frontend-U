@@ -1,4 +1,4 @@
-// File: C:\Users\Iniyan\Downloads\Blive-main\Blive\Frontend\myapp\app\watch\page.js
+// File: C:\Users\Iniyan\Blive-Frontend-U\Frontend\myapp\app\watch\page.js
 import * as entry from '../../../../app/watch/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

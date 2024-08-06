@@ -1,4 +1,4 @@
-// File: C:\Users\Iniyan\Downloads\Blive-main\Blive\Frontend\myapp\app\stream\[id]\page.js
+// File: C:\Users\Iniyan\Blive-Frontend-U\Frontend\myapp\app\stream\[id]\page.js
 import * as entry from '../../../../../app/stream/[id]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

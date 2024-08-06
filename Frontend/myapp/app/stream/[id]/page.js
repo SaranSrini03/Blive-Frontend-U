@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
-
+import "../../../style/watch.css";
 
 const StreamPage = () => {
   const pathname = usePathname();
@@ -26,17 +26,19 @@ const StreamPage = () => {
   }
 
   return (
-    <div className="flex flex-col items-center mt-10 px-4">
+    <div className="flex flex-col  mt-10 px-4">
       <div>
       </div>
-      <iframe
-        src={`https://lvpr.tv?v=${stream.playbackId}`}
-        className="w-full md:w-3/4 lg:w-1/2 aspect-video mb-4"
-        allow="autoplay; fullscreen"
-        allowFullScreen
-        frameBorder="0"
-      />
-      <h1 className="text-2xl font-bold text-center">{stream.streamTitle}</h1>
+      <div className='iframeContainer'>
+        <iframe
+          src={`https://lvpr.tv?v=${stream.playbackId}`}
+          className="w-full md:w-3/4 lg:w-1/2 aspect-video mb-4 watch"
+          allow="autoplay; fullscreen"
+          allowFullScreen
+          frameBorder="0"
+        />
+       <h1 className="text-2xl font-bold watchtitle">{stream.streamTitle}</h1>
+      </div>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-// File: C:\Users\Iniyan\Downloads\Blive-main\Blive\Frontend\myapp\app\api\streams\[id]\route.js
+// File: C:\Users\Iniyan\Blive-Frontend-U\Frontend\myapp\app\api\streams\[id]\route.js
 import * as entry from '../../../../../../app/api/streams/[id]/route.js'
 import type { NextRequest } from 'next/server.js'
 
